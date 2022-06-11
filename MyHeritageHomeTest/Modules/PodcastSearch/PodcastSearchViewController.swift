@@ -51,6 +51,7 @@ class PodcastSearchViewController: UIViewController {
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.placeholder                = "Search Podcasts"
         navigationItem.searchController                       = searchController
+        navigationItem.hidesSearchBarWhenScrolling            = false
     }
     
     private func listenForSearchTextChanges(){
