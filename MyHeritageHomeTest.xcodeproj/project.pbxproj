@@ -9,46 +9,58 @@
 /* Begin PBXBuildFile section */
 		52043989285355F2009AC835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52043988285355F2009AC835 /* AppDelegate.swift */; };
 		5204398B285355F2009AC835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204398A285355F2009AC835 /* SceneDelegate.swift */; };
-		5204398D285355F2009AC835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204398C285355F2009AC835 /* ViewController.swift */; };
-		52043990285355F2009AC835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5204398E285355F2009AC835 /* Main.storyboard */; };
+		5204398D285355F2009AC835 /* PodcastSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204398C285355F2009AC835 /* PodcastSearchViewController.swift */; };
 		52043992285355F3009AC835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52043991285355F3009AC835 /* Assets.xcassets */; };
 		52043995285355F3009AC835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52043993285355F3009AC835 /* LaunchScreen.storyboard */; };
-		520439A0285355F3009AC835 /* MyHeritageHomeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204399F285355F3009AC835 /* MyHeritageHomeTestTests.swift */; };
-		520439AA285355F3009AC835 /* MyHeritageHomeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439A9285355F3009AC835 /* MyHeritageHomeTestUITests.swift */; };
-		520439AC285355F3009AC835 /* MyHeritageHomeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439AB285355F3009AC835 /* MyHeritageHomeTestUITestsLaunchTests.swift */; };
+		520439BC285357A0009AC835 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439BB285357A0009AC835 /* HTTPMethod.swift */; };
+		520439BE285357CC009AC835 /* MHRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439BD285357CC009AC835 /* MHRequestProtocol.swift */; };
+		520439C028535813009AC835 /* iTunesSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439BF28535813009AC835 /* iTunesSearchRequest.swift */; };
+		520439C52853625C009AC835 /* MHAPIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439C42853625C009AC835 /* MHAPIConstant.swift */; };
+		520439C728536B59009AC835 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439C628536B59009AC835 /* NetworkManager.swift */; };
+		520439C928536CCC009AC835 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439C828536CCC009AC835 /* NetworkError.swift */; };
+		520439CB28536E95009AC835 /* MHAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439CA28536E95009AC835 /* MHAPIManager.swift */; };
+		520439CE285370E2009AC835 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439CD285370E2009AC835 /* DataParser.swift */; };
+		520439D1285376EE009AC835 /* PodcastSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439D0285376EE009AC835 /* PodcastSearchViewModel.swift */; };
+		520439D32853792D009AC835 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439D22853792D009AC835 /* Podcast.swift */; };
+		520439D728538F8C009AC835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520439D628538F8C009AC835 /* Main.storyboard */; };
+		520439DB285397CF009AC835 /* PodcastSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520439DA285397CF009AC835 /* PodcastSearchCell.xib */; };
+		520439DD285397F0009AC835 /* PodcastSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439DC285397F0009AC835 /* PodcastSearchCell.swift */; };
+		520439E028539BED009AC835 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 520439DF28539BED009AC835 /* SDWebImage */; };
+		520439E32853B52F009AC835 /* PodcastDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439E22853B52F009AC835 /* PodcastDetailsViewController.swift */; };
+		520439E52853B70E009AC835 /* PodcastDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520439E42853B70E009AC835 /* PodcastDetailsViewModel.swift */; };
+		52838F842853BD760025415F /* DateFormatterExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52838F832853BD760025415F /* DateFormatterExtenstion.swift */; };
+		52838F872853C0A40025415F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52838F862853C0A40025415F /* UIViewExtension.swift */; };
+		52838F89285469870025415F /* SearchTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52838F88285469870025415F /* SearchTableController.swift */; };
+		52838F8B28546F130025415F /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52838F8A28546F130025415F /* CollectionExtension.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5204399C285355F3009AC835 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5204397D285355F2009AC835 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52043984285355F2009AC835;
-			remoteInfo = MyHeritageHomeTest;
-		};
-		520439A6285355F3009AC835 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5204397D285355F2009AC835 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52043984285355F2009AC835;
-			remoteInfo = MyHeritageHomeTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		52043985285355F2009AC835 /* MyHeritageHomeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHeritageHomeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52043988285355F2009AC835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5204398A285355F2009AC835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5204398C285355F2009AC835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5204398F285355F2009AC835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5204398C285355F2009AC835 /* PodcastSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastSearchViewController.swift; sourceTree = "<group>"; };
 		52043991285355F3009AC835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52043994285355F3009AC835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52043996285355F3009AC835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5204399B285355F3009AC835 /* MyHeritageHomeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHeritageHomeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5204399F285355F3009AC835 /* MyHeritageHomeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeritageHomeTestTests.swift; sourceTree = "<group>"; };
-		520439A5285355F3009AC835 /* MyHeritageHomeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHeritageHomeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		520439A9285355F3009AC835 /* MyHeritageHomeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeritageHomeTestUITests.swift; sourceTree = "<group>"; };
-		520439AB285355F3009AC835 /* MyHeritageHomeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeritageHomeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		520439BB285357A0009AC835 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		520439BD285357CC009AC835 /* MHRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHRequestProtocol.swift; sourceTree = "<group>"; };
+		520439BF28535813009AC835 /* iTunesSearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSearchRequest.swift; sourceTree = "<group>"; };
+		520439C42853625C009AC835 /* MHAPIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAPIConstant.swift; sourceTree = "<group>"; };
+		520439C628536B59009AC835 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		520439C828536CCC009AC835 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		520439CA28536E95009AC835 /* MHAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAPIManager.swift; sourceTree = "<group>"; };
+		520439CD285370E2009AC835 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		520439D0285376EE009AC835 /* PodcastSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastSearchViewModel.swift; sourceTree = "<group>"; };
+		520439D22853792D009AC835 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		520439D628538F8C009AC835 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		520439DA285397CF009AC835 /* PodcastSearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastSearchCell.xib; sourceTree = "<group>"; };
+		520439DC285397F0009AC835 /* PodcastSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastSearchCell.swift; sourceTree = "<group>"; };
+		520439E22853B52F009AC835 /* PodcastDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastDetailsViewController.swift; sourceTree = "<group>"; };
+		520439E42853B70E009AC835 /* PodcastDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastDetailsViewModel.swift; sourceTree = "<group>"; };
+		52838F832853BD760025415F /* DateFormatterExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtenstion.swift; sourceTree = "<group>"; };
+		52838F862853C0A40025415F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		52838F88285469870025415F /* SearchTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableController.swift; sourceTree = "<group>"; };
+		52838F8A28546F130025415F /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52043998285355F3009AC835 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		520439A2285355F3009AC835 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				520439E028539BED009AC835 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				52043987285355F2009AC835 /* MyHeritageHomeTest */,
-				5204399E285355F3009AC835 /* MyHeritageHomeTestTests */,
-				520439A8285355F3009AC835 /* MyHeritageHomeTestUITests */,
 				52043986285355F2009AC835 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				52043985285355F2009AC835 /* MyHeritageHomeTest.app */,
-				5204399B285355F3009AC835 /* MyHeritageHomeTestTests.xctest */,
-				520439A5285355F3009AC835 /* MyHeritageHomeTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +94,129 @@
 		52043987285355F2009AC835 /* MyHeritageHomeTest */ = {
 			isa = PBXGroup;
 			children = (
+				520439B82853574E009AC835 /* Core */,
+				52838F852853BDDF0025415F /* Modules */,
 				52043988285355F2009AC835 /* AppDelegate.swift */,
 				5204398A285355F2009AC835 /* SceneDelegate.swift */,
-				5204398C285355F2009AC835 /* ViewController.swift */,
-				5204398E285355F2009AC835 /* Main.storyboard */,
 				52043991285355F3009AC835 /* Assets.xcassets */,
+				520439D628538F8C009AC835 /* Main.storyboard */,
 				52043993285355F3009AC835 /* LaunchScreen.storyboard */,
 				52043996285355F3009AC835 /* Info.plist */,
 			);
 			path = MyHeritageHomeTest;
 			sourceTree = "<group>";
 		};
-		5204399E285355F3009AC835 /* MyHeritageHomeTestTests */ = {
+		520439B82853574E009AC835 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5204399F285355F3009AC835 /* MyHeritageHomeTestTests.swift */,
+				520439E72853BD27009AC835 /* Extenstions */,
+				520439C1285358A1009AC835 /* Api */,
+				520439C228535FFB009AC835 /* Domain */,
 			);
-			path = MyHeritageHomeTestTests;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		520439A8285355F3009AC835 /* MyHeritageHomeTestUITests */ = {
+		520439B928535754009AC835 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				520439A9285355F3009AC835 /* MyHeritageHomeTestUITests.swift */,
-				520439AB285355F3009AC835 /* MyHeritageHomeTestUITestsLaunchTests.swift */,
+				520439BB285357A0009AC835 /* HTTPMethod.swift */,
+				520439BD285357CC009AC835 /* MHRequestProtocol.swift */,
+				520439BF28535813009AC835 /* iTunesSearchRequest.swift */,
+				520439C628536B59009AC835 /* NetworkManager.swift */,
+				520439C828536CCC009AC835 /* NetworkError.swift */,
+				520439CA28536E95009AC835 /* MHAPIManager.swift */,
 			);
-			path = MyHeritageHomeTestUITests;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		520439C1285358A1009AC835 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				520439C42853625C009AC835 /* MHAPIConstant.swift */,
+				520439CC285370D5009AC835 /* Parser */,
+				520439B928535754009AC835 /* Network */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		520439C228535FFB009AC835 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				520439C328536017009AC835 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		520439C328536017009AC835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				520439D22853792D009AC835 /* Podcast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		520439CC285370D5009AC835 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				520439CD285370E2009AC835 /* DataParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		520439CF2853762E009AC835 /* PodcastSearch */ = {
+			isa = PBXGroup;
+			children = (
+				5204398C285355F2009AC835 /* PodcastSearchViewController.swift */,
+				520439D0285376EE009AC835 /* PodcastSearchViewModel.swift */,
+				520439D82853979F009AC835 /* SearchTableController */,
+			);
+			path = PodcastSearch;
+			sourceTree = "<group>";
+		};
+		520439D82853979F009AC835 /* SearchTableController */ = {
+			isa = PBXGroup;
+			children = (
+				52838F88285469870025415F /* SearchTableController.swift */,
+				520439D9285397AF009AC835 /* Cells */,
+			);
+			path = SearchTableController;
+			sourceTree = "<group>";
+		};
+		520439D9285397AF009AC835 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				520439DA285397CF009AC835 /* PodcastSearchCell.xib */,
+				520439DC285397F0009AC835 /* PodcastSearchCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		520439E12853B4FC009AC835 /* PodcastDeatils */ = {
+			isa = PBXGroup;
+			children = (
+				520439E22853B52F009AC835 /* PodcastDetailsViewController.swift */,
+				520439E42853B70E009AC835 /* PodcastDetailsViewModel.swift */,
+			);
+			path = PodcastDeatils;
+			sourceTree = "<group>";
+		};
+		520439E72853BD27009AC835 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				52838F832853BD760025415F /* DateFormatterExtenstion.swift */,
+				52838F862853C0A40025415F /* UIViewExtension.swift */,
+				52838F8A28546F130025415F /* CollectionExtension.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		52838F852853BDDF0025415F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				520439CF2853762E009AC835 /* PodcastSearch */,
+				520439E12853B4FC009AC835 /* PodcastDeatils */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +235,12 @@
 			dependencies = (
 			);
 			name = MyHeritageHomeTest;
+			packageProductDependencies = (
+				520439DF28539BED009AC835 /* SDWebImage */,
+			);
 			productName = MyHeritageHomeTest;
 			productReference = 52043985285355F2009AC835 /* MyHeritageHomeTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5204399A285355F3009AC835 /* MyHeritageHomeTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 520439B2285355F3009AC835 /* Build configuration list for PBXNativeTarget "MyHeritageHomeTestTests" */;
-			buildPhases = (
-				52043997285355F3009AC835 /* Sources */,
-				52043998285355F3009AC835 /* Frameworks */,
-				52043999285355F3009AC835 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5204399D285355F3009AC835 /* PBXTargetDependency */,
-			);
-			name = MyHeritageHomeTestTests;
-			productName = MyHeritageHomeTestTests;
-			productReference = 5204399B285355F3009AC835 /* MyHeritageHomeTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		520439A4285355F3009AC835 /* MyHeritageHomeTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 520439B5285355F3009AC835 /* Build configuration list for PBXNativeTarget "MyHeritageHomeTestUITests" */;
-			buildPhases = (
-				520439A1285355F3009AC835 /* Sources */,
-				520439A2285355F3009AC835 /* Frameworks */,
-				520439A3285355F3009AC835 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				520439A7285355F3009AC835 /* PBXTargetDependency */,
-			);
-			name = MyHeritageHomeTestUITests;
-			productName = MyHeritageHomeTestUITests;
-			productReference = 520439A5285355F3009AC835 /* MyHeritageHomeTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +255,6 @@
 					52043984285355F2009AC835 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					5204399A285355F3009AC835 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 52043984285355F2009AC835;
-					};
-					520439A4285355F3009AC835 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 52043984285355F2009AC835;
-					};
 				};
 			};
 			buildConfigurationList = 52043980285355F2009AC835 /* Build configuration list for PBXProject "MyHeritageHomeTest" */;
@@ -215,13 +266,14 @@
 				Base,
 			);
 			mainGroup = 5204397C285355F2009AC835;
+			packageReferences = (
+				520439DE28539BED009AC835 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 52043986285355F2009AC835 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				52043984285355F2009AC835 /* MyHeritageHomeTest */,
-				5204399A285355F3009AC835 /* MyHeritageHomeTestTests */,
-				520439A4285355F3009AC835 /* MyHeritageHomeTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +285,8 @@
 			files = (
 				52043995285355F3009AC835 /* LaunchScreen.storyboard in Resources */,
 				52043992285355F3009AC835 /* Assets.xcassets in Resources */,
-				52043990285355F2009AC835 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52043999285355F3009AC835 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		520439A3285355F3009AC835 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				520439DB285397CF009AC835 /* PodcastSearchCell.xib in Resources */,
+				520439D728538F8C009AC835 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,53 +297,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5204398D285355F2009AC835 /* ViewController.swift in Sources */,
+				52838F842853BD760025415F /* DateFormatterExtenstion.swift in Sources */,
+				520439C52853625C009AC835 /* MHAPIConstant.swift in Sources */,
+				520439BC285357A0009AC835 /* HTTPMethod.swift in Sources */,
+				520439CE285370E2009AC835 /* DataParser.swift in Sources */,
+				5204398D285355F2009AC835 /* PodcastSearchViewController.swift in Sources */,
+				52838F8B28546F130025415F /* CollectionExtension.swift in Sources */,
+				520439DD285397F0009AC835 /* PodcastSearchCell.swift in Sources */,
+				520439C028535813009AC835 /* iTunesSearchRequest.swift in Sources */,
+				520439C728536B59009AC835 /* NetworkManager.swift in Sources */,
+				520439D32853792D009AC835 /* Podcast.swift in Sources */,
+				520439E52853B70E009AC835 /* PodcastDetailsViewModel.swift in Sources */,
 				52043989285355F2009AC835 /* AppDelegate.swift in Sources */,
+				52838F89285469870025415F /* SearchTableController.swift in Sources */,
+				52838F872853C0A40025415F /* UIViewExtension.swift in Sources */,
+				520439C928536CCC009AC835 /* NetworkError.swift in Sources */,
 				5204398B285355F2009AC835 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52043997285355F3009AC835 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				520439A0285355F3009AC835 /* MyHeritageHomeTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		520439A1285355F3009AC835 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				520439AC285355F3009AC835 /* MyHeritageHomeTestUITestsLaunchTests.swift in Sources */,
-				520439AA285355F3009AC835 /* MyHeritageHomeTestUITests.swift in Sources */,
+				520439BE285357CC009AC835 /* MHRequestProtocol.swift in Sources */,
+				520439E32853B52F009AC835 /* PodcastDetailsViewController.swift in Sources */,
+				520439CB28536E95009AC835 /* MHAPIManager.swift in Sources */,
+				520439D1285376EE009AC835 /* PodcastSearchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5204399D285355F3009AC835 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52043984285355F2009AC835 /* MyHeritageHomeTest */;
-			targetProxy = 5204399C285355F3009AC835 /* PBXContainerItemProxy */;
-		};
-		520439A7285355F3009AC835 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52043984285355F2009AC835 /* MyHeritageHomeTest */;
-			targetProxy = 520439A6285355F3009AC835 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		5204398E285355F2009AC835 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5204398F285355F2009AC835 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52043993285355F3009AC835 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +460,10 @@
 				DEVELOPMENT_TEAM = J5342CQ6U6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHeritageHomeTest/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +475,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,9 +489,10 @@
 				DEVELOPMENT_TEAM = J5342CQ6U6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyHeritageHomeTest/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,83 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		520439B3285355F3009AC835 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5342CQ6U6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elad.MyHeritageHomeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHeritageHomeTest.app/MyHeritageHomeTest";
-			};
-			name = Debug;
-		};
-		520439B4285355F3009AC835 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5342CQ6U6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elad.MyHeritageHomeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHeritageHomeTest.app/MyHeritageHomeTest";
-			};
-			name = Release;
-		};
-		520439B6285355F3009AC835 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5342CQ6U6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elad.MyHeritageHomeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyHeritageHomeTest;
-			};
-			name = Debug;
-		};
-		520439B7285355F3009AC835 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5342CQ6U6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elad.MyHeritageHomeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyHeritageHomeTest;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -585,25 +529,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		520439B2285355F3009AC835 /* Build configuration list for PBXNativeTarget "MyHeritageHomeTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				520439B3285355F3009AC835 /* Debug */,
-				520439B4285355F3009AC835 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		520439B5285355F3009AC835 /* Build configuration list for PBXNativeTarget "MyHeritageHomeTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				520439B6285355F3009AC835 /* Debug */,
-				520439B7285355F3009AC835 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		520439DE28539BED009AC835 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		520439DF28539BED009AC835 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 520439DE28539BED009AC835 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5204397D285355F2009AC835 /* Project object */;
 }
